@@ -1,6 +1,6 @@
 import React from "react";
 import Stories from "./Stories";
-
+import InputBox from "./InputBox";
 const Feed = () => {
   return (
     <div className="flex-grow h-screen pb-44 pt-6 xl:mr-40 overflow-y-auto">
@@ -8,6 +8,7 @@ const Feed = () => {
         {/* Stories */}
         <Stories />
         {/* InputBox */}
+        <InputBox />
         {/* Posts */}
       </div>
     </div>
